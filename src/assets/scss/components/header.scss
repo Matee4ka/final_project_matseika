@@ -1,17 +1,41 @@
-header {
+$primary-color: #222222;
 
+header {
+   background-color: #F9F6F5;
+   padding-top: 40px;
 }
 .header{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    align-items: center;
+   font-family:'Red Hat Display',sans-serif;
+   color: $primary-color;
 
    
-   &__logo{}
-   &__navigation li{ 
-      display: inline-block;
+   &__logo{
+      font-style:italic;
+      font-weight:700;
+      font-size:24px;
+      line-height:30px;
+      text-decoration-line:underline;
    }
-   &__user{
+
+   &__navigation{ 
+      li{
+      display: inline-block;
+      padding-right: 40px;
+      }
+      a{
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: $primary-color;
+      }
+   }
+   
+   &__user img{
+      padding-right: 28px;
    }
 }

@@ -1,0 +1,31 @@
+.beauty{
+   font-family: 'Red Hat Display';
+   font-weight: 500;
+   margin-bottom: 130px;
+   
+   &__row{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: calc(100% - 32px/2);
+   }
+   &__title{
+      font-size: 56px;
+      line-height: 70px;
+      color: #000000;
+      max-width: 520px;
+      padding-bottom: 20px;
+   }
+   &__text{
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      color: #555555;
+      max-width: 608px;
+      padding-bottom: 20px;
+   }
+   .paragraph{
+      padding-bottom: 50px;
+   }
+}

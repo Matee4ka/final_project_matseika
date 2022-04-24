@@ -1,0 +1,18 @@
+.beauty{
+   &__row {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__column{}
+   &__grade{}
+      &beauty__title{}
+         &beauty__text {
+            max-width: 608px;
+         }
+   &__title{}
+   &__subtitle {
+   }
+}
+.left{
+   border: 1px solid #6FB587;
+}

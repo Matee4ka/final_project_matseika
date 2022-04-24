@@ -1,0 +1,15 @@
+.shops{
+   &__container{
+      margin-top: 130px;
+      margin-bottom: 60px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      border: 1px solid #EEEEEE;
+      border-right-style: none;
+      border-left-style: none;
+      padding-top: 42.5px;
+      padding-bottom: 42.5px;
+   }
+}
