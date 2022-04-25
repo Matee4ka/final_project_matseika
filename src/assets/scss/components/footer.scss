@@ -86,3 +86,13 @@ a {
       margin-right: 29.95px;
    }
 }
+@media (min-width: 1024px) and (max-width: 1239.75px) {
+   .footer{
+      &__logo a{
+         font-size: 36px;
+      }
+      &__paragraph{
+         line-height: 30px;
+      }
+   }
+}

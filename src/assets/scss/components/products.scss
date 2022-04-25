@@ -90,3 +90,29 @@
       cursor: pointer;
    } 
 }
+
+// 1024px -1239.75px
+@media (min-width: 1024px) and (max-width: 1239.75px) {
+
+   .products{
+      &__title{
+         text-align: center;
+         font-size: 52px;
+      }
+      &__column{
+         display: flex;
+         -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+         justify-content: center;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+      }
+
+      &__more{
+         font-size: 20px;
+      }
+   }
+}
+
+// 768px - 1023.75px
+// 320px - 767.75px

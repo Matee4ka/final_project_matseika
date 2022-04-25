@@ -64,3 +64,30 @@
       padding: 11.5px;
    }
 }
+// 1024px -1239.75px
+@media (min-width: 1024px) and (max-width: 1239.75px) {
+   .comments{
+      &__client{
+         max-width: 400px;
+      }
+
+      &__grade{
+         padding-bottom: 20px;
+      }
+
+      &__title{
+         padding-bottom: 6px;
+      }
+
+      &__text{
+         max-width: 540px;
+         line-height: 30px;
+         padding-bottom: 20px;
+      }
+
+      &__subtitle{
+         padding-bottom: 12px;
+      }
+   }
+
+}
