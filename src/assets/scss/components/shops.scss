@@ -15,8 +15,12 @@
 }
 
 // 1024px -1239.75px
-@media (min-width: 1024px) and (max-width:1239.75) {
-
+@media (min-width: 768px) and (max-width:1023.75) {
+   .shops{
+      &__container{
+         margin-bottom: 45px;
+      }
+   }
 
 }
 

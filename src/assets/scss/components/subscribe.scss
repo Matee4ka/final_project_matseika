@@ -43,7 +43,7 @@
       padding-left: 18px;
    }
 }
-
+// 1024px -1239.75px
 @media (min-width: 1024px) and (max-width: 1239.75px) {
    .email{
       // padding-top: 80px;
@@ -52,5 +52,34 @@
          font-size: 28px;
       }
    }
+}
 
+// 768px -1023.75px
+@media (min-width: 768px) and (max-width: 1023.75px) {
+   .email{
+      padding-bottom: 60px;
+
+      &__body{
+         padding-top: 50px;
+      }
+
+      &__header{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+
+      &__title{
+         // font-size: 20px;
+         // line-height: 30px;
+         padding-bottom: 30px;
+      }
+
+      &__form{
+
+      }
+      &__search{
+
+      }
+   }
 }
