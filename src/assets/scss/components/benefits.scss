@@ -38,3 +38,24 @@
       margin-bottom: 80px;
    }
 }
+
+// 320px -769.75px
+@media (min-width: 320px) and (max-width: 769.75px) {
+   .benefits{
+      background: #FDF8F5;
+      margin-bottom: 80px;
+      height: 550px;
+         &__row{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+         }
+         &__row{
+            // height: 450px; 
+         }
+         &__row{
+            height: 550px;
+         }
+   }
+}

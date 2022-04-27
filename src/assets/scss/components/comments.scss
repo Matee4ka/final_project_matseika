@@ -130,3 +130,32 @@
       }
    }
 }
+
+// 320px - 767.75px
+@media (min-width: 320px) and (max-width: 767.75px) {
+   .comments{
+      margin-bottom: 80px;
+      &__row{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+      &__client{
+         max-width: 295px;
+      }
+      &__column{
+         text-align: center;
+         max-width: 295px;
+      }
+      &__text{
+         text-align: justify;
+         width: 295px;
+         padding: 0 0 50px 0;
+      }
+      &__buttons{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center
+      }
+   }
+}

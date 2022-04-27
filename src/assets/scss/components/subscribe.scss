@@ -83,3 +83,32 @@
       }
    }
 }
+// 320px -767.75px
+@media (min-width: 320px) and (max-width: 767.75px) {
+   .email{
+      padding-bottom: 80px;
+
+      &__container{
+      border: none;
+      }
+      &__body{
+      padding-top: 40px;
+      width: 295px;
+      }
+      &__title{
+         margin: 0 0 15px 0;
+         text-align: center;
+      }
+
+      &__form{
+         display: flex;
+         flex-wrap: wrap;
+         // justify-content: center;
+      }
+      &__search{
+         width: 295px;
+         margin: 0 0 25px 0;
+      }
+   }
+
+}

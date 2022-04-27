@@ -59,3 +59,25 @@
    left: 298px;
    top: 552px;
 }
+
+
+
+
+
+// 320px -767.75px
+@media (min-width: 320px) and (max-width: 767.75px) {
+   .get{
+      &__title{
+         padding-top: 60px;
+         // text-align: center;
+      }
+      &__img{
+         display: none;
+      }
+      &__text{
+         width: 295px;
+         text-align: justify;
+      }
+   }
+}
+

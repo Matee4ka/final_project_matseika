@@ -78,3 +78,37 @@
       }
    }
 }
+// 320px - 767.75px
+@media (min-width: 320px) and (max-width: 767.75px) {
+   .beauty{
+      width: 295px;
+      margin-bottom: 80px;
+
+      // &__row{
+      //    width: 295px;
+      // }
+      // &__column{
+      //    width: 295px;
+      // }
+      &__row{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+      &__title{
+      text-align: center;
+      line-height: 65px;
+      width: 295px;
+      }
+
+      &__text{
+         text-align: justify; 
+         padding: 0 6px;
+         width: 295px;
+      }
+
+      &__img{
+         display: none;
+      }
+   }
+}
