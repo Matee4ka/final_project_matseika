@@ -12,7 +12,7 @@ a {
       justify-content: space-between;
       align-items: center;
    }
-   
+
    &__logo {
       display: flex;
       flex-direction: column;
@@ -75,6 +75,7 @@ a {
          color: #222222;
       }
    }
+
    &__telephone {
       font-weight: 400;
       font-size: 16px;
@@ -82,6 +83,7 @@ a {
       color: #222222;
       padding-bottom: 20px;
    }
+   
    &__social img{
       margin-right: 29.95px;
    }
