@@ -126,9 +126,10 @@ a {
 
       &__logo{
          padding-bottom: 80px;
-         text-align: center;
+         // text-align: center;
       }
       &__title{
+         padding-top: 40px;
          padding-bottom: 40px;
       }
       &__links{
@@ -139,7 +140,7 @@ a {
 
       }
       &__paragraph{
-         width: 295px;
+         // width: 295px;
       }
       &__contacts{
          text-align: center;

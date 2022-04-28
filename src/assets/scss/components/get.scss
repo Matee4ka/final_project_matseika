@@ -30,6 +30,8 @@
    &__form{
       padding-top: 30px;
       padding-bottom: 30px;
+      width: 326px;
+      position: relative;
    }
    &__search{
       width: 326px;
@@ -41,7 +43,6 @@
       font-size: 14px;
       line-height: 20px;
       color: #999999;
-      position: relative;
    }
    &__img{
       // max-width: calc(100% - 30px/2);
@@ -56,8 +57,27 @@
    cursor: pointer;
    border: none;
    position: absolute;
-   left: 298px;
-   top: 552px;
+   left: 284px;
+   top: 38px;
+
+}
+
+// 320px -1239.75px
+@media (min-width: 320px) and (max-width: 1195.75px) {
+   .get{
+      &__img img{
+         width: 410px;
+      }
+      
+   }
+}
+// 768px - 1023.75px
+@media (min-width: 768px) and (max-width: 1023.75px) {
+   .get{
+      &__title{
+         padding-top: 60px;
+      }
+   }
 }
 
 
@@ -67,6 +87,7 @@
 // 320px -767.75px
 @media (min-width: 320px) and (max-width: 767.75px) {
    .get{
+      height: 795px;
       &__title{
          padding-top: 60px;
          // text-align: center;
@@ -78,6 +99,24 @@
          width: 295px;
          text-align: justify;
       }
+      &__search{
+         width: 305px;
+      }
+      &__form{
+         position: relative;
+      }
+      .search{
+         // background: url(../imgs/header/search.png);
+         // width: 32px;
+         // height: 32px;
+         // cursor: pointer;
+         // border: none;
+         position: absolute;
+         left: 263px;
+         top: 38px;
+      
+      }
+      
    }
 }
 

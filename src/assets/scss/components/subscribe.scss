@@ -108,6 +108,8 @@
       &__search{
          width: 295px;
          margin: 0 0 25px 0;
+         display: flex;
+         flex-wrap: wrap;
       }
    }
 
