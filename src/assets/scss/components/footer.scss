@@ -12,6 +12,7 @@ a {
       justify-content: space-between;
       align-items: center;
    }
+   
    &__logo {
       display: flex;
       flex-direction: column;
@@ -25,16 +26,17 @@ a {
       line-height: 50px;
       text-decoration-line: underline;
       color: #222222;
+      }
    }
-}
+
    &__paragraph {
       max-width: 326px;
       font-weight: 400;
       font-size: 18px;
       line-height: 32px;
       color: #555555;
-
    }
+
    &__links {
       flex-direction: column;
       flex-wrap: wrap;
@@ -42,27 +44,25 @@ a {
       height: 200px;
       a{
          color: #222222;
-
       }
    }
    &__item li{
       padding-bottom: 20px;
    }
+
    &__title {
       font-weight: 500;
       font-size: 20px;
       line-height: 24px;
       color: #222222;
       padding-bottom: 75px;
-      
    }
+
    &__contacts {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      // justify-content: space-between;
       height: 200px;
-      // padding-bottom: 20px;
    }
 
    &__email {
@@ -126,12 +126,13 @@ a {
 
       &__logo{
          padding-bottom: 80px;
-         // text-align: center;
       }
+
       &__title{
          padding-top: 40px;
          padding-bottom: 40px;
       }
+
       &__links{
          display: none;
       }
@@ -140,8 +141,8 @@ a {
 
       }
       &__paragraph{
-         // width: 295px;
       }
+
       &__contacts{
          text-align: center;
          margin-top: 20px 0 0 0 ;

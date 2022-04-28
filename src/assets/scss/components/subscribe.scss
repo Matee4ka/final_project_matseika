@@ -43,6 +43,7 @@
       padding-left: 18px;
    }
 }
+
 // 1024px -1239.75px
 @media (min-width: 1024px) and (max-width: 1239.75px) {
    .email{
@@ -70,8 +71,6 @@
       }
 
       &__title{
-         // font-size: 20px;
-         // line-height: 30px;
          padding-bottom: 30px;
       }
 
@@ -103,8 +102,8 @@
       &__form{
          display: flex;
          flex-wrap: wrap;
-         // justify-content: center;
       }
+
       &__search{
          width: 295px;
          margin: 0 0 25px 0;
@@ -112,5 +111,4 @@
          flex-wrap: wrap;
       }
    }
-
 }

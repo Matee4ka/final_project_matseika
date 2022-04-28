@@ -8,12 +8,6 @@
       align-items: center;
       max-width: calc(100% - 32px/2);
    }
-   // &__column{
-   //    display: flex;
-   //    flex-direction: column;
-   //    flex-wrap: wrap;
-   //    justify-content: space-between;
-   // }
 
    &__grade {
       padding-bottom: 45.5px;
@@ -47,8 +41,6 @@
    &__buttons {
       display: flex;
       flex-wrap: wrap;
-
-
    }
 
    .left {
